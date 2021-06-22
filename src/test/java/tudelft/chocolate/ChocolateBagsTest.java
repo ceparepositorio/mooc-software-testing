@@ -14,7 +14,7 @@ public class ChocolateBagsTest {
     }
 
     @ParameterizedTest(name ="small={0}, big={1}, total={2}, result={3}")
-    @CsvSource({ "1,1,5,0", "3,8,7,2", "1,6,9,-1"
+    @CsvSource({ "1,1,5,0", "3,8,7,2", "1,6,9,-1", "1,2,4,-1"
 
     })
     public void totalIsTooBig2(int small, int big, int total, int expectedResult) {
