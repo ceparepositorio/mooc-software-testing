@@ -7,6 +7,11 @@ public class LeapYear {
             return true;
         if ( year % 100 == 0)
             return false;
-        return  ( year % 4 == 0 ) ? true : false;
+       return  ( year % 4 == 0 ) ? true : false;
+
+
+       //In the exercise we simulate an error changing false for true like the next sentence
+        //after run the LeapYearTest, we changed to the original value =),
+      //  return (year % 4 == 0) ?false : true;
     }
 }

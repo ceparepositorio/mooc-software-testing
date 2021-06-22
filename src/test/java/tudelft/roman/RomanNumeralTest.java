@@ -1,11 +1,18 @@
 package tudelft.roman;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class RomanNumeralTest {
 
+/*
+    @BeforeEach
+    public void initialize(){
+        System.out.println("This method is called before each test!\n");
 
+    }
+*/
     @Test
     public void singleNumber() {
         RomanNumeral roman = new RomanNumeral();
